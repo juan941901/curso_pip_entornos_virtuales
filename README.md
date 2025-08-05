@@ -56,3 +56,7 @@ brew install python3
 ## Extesiones a usar en visual code
 - Python
 - WSL (Si estas trabajando desde windows)
+
+## Creación de archivo gitignore
+
+Podemos usar la herramienta [gitignore.io](https://www.toptal.com/developers/gitignore/), en ella por estandar vamos a indicar que no genere archivo para windows, linux, mac y python
