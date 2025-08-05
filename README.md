@@ -1,4 +1,4 @@
-# curso_pip_entornos_virtuales
+# Curso pip Entornos Virtuales
 
 Es importante que usemos WSL de windows, para tener un entorno linux dentro de nuestra maquina con windows, para ello ejecutaremos en power shell:
 
