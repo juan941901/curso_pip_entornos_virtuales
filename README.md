@@ -1,5 +1,6 @@
 # Curso pip Entornos Virtuales
 
+## Instalación entorno windows
 Es importante que usemos WSL de windows, para tener un entorno linux dentro de nuestra maquina con windows, para ello ejecutaremos en power shell:
 
 ```powershell
@@ -31,7 +32,7 @@ Para su instalación ejecutaremos el comando:
 ```bash
 sudo apt install -y build-essential libssl-dev libffi-dev python3-dev
 ```
-
+## Instalación MAC
 Los siguientes pasos son para realizar la configuración en equipos mac.
 
 Instalamos las herramientas de comandos con:
