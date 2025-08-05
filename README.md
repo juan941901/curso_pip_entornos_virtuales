@@ -53,3 +53,6 @@ Ahora para realizar la instalacción de python3 usaremos homebrew, para realizar
 brew install python3
 ```
 
+## Extesiones a usar en visual code
+- Python
+- WSL (Si estas trabajando desde windows)
