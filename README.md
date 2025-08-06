@@ -69,3 +69,44 @@ para ejecutar el juego debes ingresar a la carpeta game
 cd game
 python3 main.py
 ```
+
+# Crear entorno virtual
+
+Para crear un entorno virtual usaremos el comando:
+
+```bash
+python3 -m venv entorno_charts
+```
+
+Y luego:
+
+```bash
+source entorno_charts/bin/activate
+```
+
+y para salir del entorno usamos:
+
+```bash
+deactivate
+```
+
+se puede cambiar entorno_charts por el nombre que le deseemos asignar.
+
+Puede pasar que no cree la carpeta activate dentro de bin, y esto genere un error, que es debido a que falta paquete por instalar de python, para solucionarlo vamos a ejecutar los siguientes comando:
+
+```bash
+sudo apt update
+sudo apt install python3.12-venv
+```
+instalado las dependencias eliminamos la carpeta creada de entorno_charts, con todo su contenido haciendo uso del comando:
+
+```bash
+rm -rf entorno_charts
+```
+
+y procedemos ahora si a ejecutar el comando de creación del entorno
+
+#⚠️instalar libreria en entorno global, no recomendado hacer
+
+para realizar el proceso de instalar una liberia en el entorno global debemos agregar `--break-system-packages`, al final del comando de instalación
+
