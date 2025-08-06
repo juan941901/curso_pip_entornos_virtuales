@@ -110,3 +110,20 @@ y procedemos ahora si a ejecutar el comando de creación del entorno
 
 para realizar el proceso de instalar una liberia en el entorno global debemos agregar `--break-system-packages`, al final del comando de instalación
 
+# Copiar información al entorno ubuntu(wsl)
+
+Para copiar carpetas o archivos dentro de nuestro entorno vamos a usar el comando:
+
+```bash
+cp -r /mnt/c/Users/tu_usuario/Desktop/mi_carpeta ~/
+```
+Esto copia `mi_carpeta` desde tu escritorio de Windows a tu carpeta personal (~) en Ubuntu.
+
+# Instalar paquetes con pip
+
+Para realizar una instalación de un paquete usamos el comando:
+```bash
+pip3 install nombre-del-paquete
+```
+
+Si quieres usar una versión especifica debes agrega `==` al final del nombre del paquete y luego la versión que deseas instalar
