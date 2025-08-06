@@ -60,3 +60,12 @@ brew install python3
 ## Creación de archivo gitignore
 
 Podemos usar la herramienta [gitignore.io](https://www.toptal.com/developers/gitignore/), en ella por estandar vamos a indicar que no genere archivo para windows, linux, mac y python
+
+# Pasos para correr juego de piedra, papel y tijera
+
+para ejecutar el juego debes ingresar a la carpeta game
+
+```bash
+cd game
+python3 main.py
+```
