@@ -106,7 +106,7 @@ rm -rf entorno_charts
 
 y procedemos ahora si a ejecutar el comando de creación del entorno
 
-#⚠️instalar libreria en entorno global, no recomendado hacer
+# ⚠️instalar libreria en entorno global, no recomendado hacer
 
 para realizar el proceso de instalar una liberia en el entorno global debemos agregar `--break-system-packages`, al final del comando de instalación
 
