@@ -106,10 +106,6 @@ rm -rf entorno_charts
 
 y procedemos ahora si a ejecutar el comando de creación del entorno
 
-# ⚠️instalar libreria en entorno global, no recomendado hacer
-
-para realizar el proceso de instalar una liberia en el entorno global debemos agregar `--break-system-packages`, al final del comando de instalación
-
 # Copiar información al entorno ubuntu(wsl)
 
 Para copiar carpetas o archivos dentro de nuestro entorno vamos a usar el comando:
@@ -127,3 +123,7 @@ pip3 install nombre-del-paquete
 ```
 
 Si quieres usar una versión especifica debes agrega `==` al final del nombre del paquete y luego la versión que deseas instalar
+
+## ⚠️instalar libreria en entorno global, no recomendado hacer
+
+para realizar el proceso de instalar una liberia en el entorno global debemos agregar `--break-system-packages`, al final del comando de instalación
