@@ -127,3 +127,30 @@ Si quieres usar una versión especifica debes agrega `==` al final del nombre de
 ## ⚠️instalar libreria en entorno global, no recomendado hacer
 
 para realizar el proceso de instalar una liberia en el entorno global debemos agregar `--break-system-packages`, al final del comando de instalación
+
+## Comandos docker para ejecutar app 
+
+Con este comando se construye la imagen configurada en el Dockerfile
+
+```docker-compose
+docker-compose build
+```
+
+ahora para ejecutar nuestra imagen y configuración de nuestro `docker-compose.yml`, escribimos:
+
+```docker-compose
+docker-compose up -d
+```
+
+Para listar nuestros contenedores en ejecución usamos:
+
+```docker-compose
+docker-compose ps
+```
+
+Comando para ingresar al contenedor creado, en modo terminal
+
+```docker-compose
+docker-compose exec app-csv bash
+```
+
